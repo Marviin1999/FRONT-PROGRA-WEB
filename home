@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Deportiva | Inicio</title>
+  <link rel="stylesheet" href="stylehome.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="home.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white" href="#">🏆 Tienda Deportiva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item"><a class="btn btn-outline-light ms-2" href="../login.html">Iniciar Sesión</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero d-flex align-items-center text-center bg-dark text-white">
+    <div class="container">
+      <h1 class="fw-bold mb-3">Bienvenido a la Tienda Deportiva</h1>
+      <p class="mb-4">Encuentra lo mejor del deporte con nosotros</p>
+      <a href="#productos" class="btn btn-light btn-lg fw-bold">Explorar</a>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Productos</h2>
+      <div class="row g-4" id="contenedor-productos">
+        <!-- Productos cargados desde backend -->
+      </div>
+    </div>
+  </section>
+
+  <!-- OFERTAS -->
+  <section id="ofertas" class="py-5 bg-dark text-white text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Ofertas y Promociones</h2>
+      <p class="mb-4">Descuentos por tiempo limitado</p>
+      <div id="contenedor-ofertas" class="row g-4 justify-content-center">
+        <!-- Ofertas dinámicas -->
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="py-5 text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Sobre Nosotros</h2>
+      <p class="mx-auto w-75 text-muted">[Texto institucional cargado desde el backend]</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Contáctanos</h2>
+      <div id="info-contacto">
+        <!-- Información de contacto desde base de datos -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-3 bg-dark text-white">
+    <p class="mb-0">© 2025 Tienda Deportiva. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
