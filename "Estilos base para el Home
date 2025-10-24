@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000 !important;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  min-height: 80vh;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Botones */
+.btn-outline-light {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Secciones */
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+h2 {
+  letter-spacing: 1px;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+}
