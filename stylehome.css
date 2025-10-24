@@ -1,0 +1,61 @@
+:root {
+  --main: #1A4D2E;
+  --light: #F5EFE6;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bg-main {
+  background-color: var(--main) !important;
+}
+.text-main {
+  color: var(--main);
+}
+
+/* Navbar */
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: var(--light) !important;
+}
+.btn-login {
+  background-color: var(--light);
+  color: var(--main);
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn-login:hover {
+  background-color: #e4dcca;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1') center/cover;
+  min-height: 80vh;
+}
+
+/* Botones principales */
+.btn-main {
+  background-color: var(--main);
+  color: #fff;
+  border-radius: 8px;
+}
+.btn-main:hover {
+  background-color: #145d33;
+}
+
+/* Secciones */
+.bg-offers {
+  background-color: var(--main);
+}
+
+footer {
+  background-color: var(--main);
+  color: var(--light);
+}
